@@ -10,6 +10,16 @@ API utilization is very simple, the only obstacle is connected with some prelimi
 
 You can find these authentificaiton detais via your CDS account. Click on your username in the righ upper corner after  login to Copernicus and scroll until the "API key" section. Both key values should be placed in the `.cdsapirc` file. Technical details about file location under different operaiton systems are described in the Copernicus Knowledge Base at https://confluence.ecmwf.int/display/CKB/Climate+Data+Store+%28CDS%29+infrastructure+and+API Then the Python package `cdsapi` is needed. As usuall, it's better to install it under the Python virtual environment.
 
+The installation workflow step-by-step looks as follows:
+
+1. Ensure that Python3 and pip package manager are installed. 
+
+2. Install the venv package
+
+3. Create the [virtual environment](https://docs.python.org/3/library/venv.html#venv-def) with the command
+
+`python3 -m venv /path/to/new/virtual/environment`
+
 ## Workflow
 
 After the initial procedures are competed, the data load workflow looks very straightforward:
