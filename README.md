@@ -30,7 +30,7 @@ After the initial procedures are competed, the data load workflow looks very str
 source path-to-you-virtual-environment/my_venv/bin/activate
 ```
 
-2) check and/or modify your loading script;
+2) check and/or modify your loading script (here it's "python3 era5_wind_by_years.py");
 
 3) run the script:
 
